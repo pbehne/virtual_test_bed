@@ -21,11 +21,7 @@ coolant_half_points_filename = ../channel_positions/coolant_half_points.txt # Fi
 []
 
 [Mesh]
-  [fmg]
-    type = FileMeshGenerator
-    file = '../MESH/BISON_mesh.e'
-    # alternatively use the restart file
-  []
+  file = '../MESH/BISON_mesh.e'
 []
 
 [Variables]
